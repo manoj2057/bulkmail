@@ -6,7 +6,7 @@
             <strong>All Students</strong> 
         </div>
         <div class="col-auto float-right ml-auto">
-            <a href="{{ route('student.index') }}" class="btn update-btn btn-primary" btn-width="60" style="background-color: #1a2eb9; border: 1px solid #1a2eb9;color: #fff; margin-right: 7px;  margin-top: 7px; border-radius:10px;" ><i class="fa fa-eye"></i> View Product </a>
+            <a href="{{ route('student.index') }}" class="btn update-btn btn-primary" btn-width="60" style="background-color: #1a2eb9; border: 1px solid #1a2eb9;color: #fff; margin-right: 7px;  margin-top: 7px; border-radius:10px;" ><i class="fa fa-eye"></i> View student </a>
 
         </div>
         <div class="card-body card-block">

@@ -22,10 +22,7 @@
                             <thead>
                                 <tr>
                                     <th></th>
-                                    <th>
-                                        <input type="checkbox" id="select-all">
-                                        <label>Select all</label>
-                                    </th>
+                                    
                                     <th>S.N</th>
                                     <th>Course Id</th>
                                     <th>student Name</th>
@@ -55,7 +52,7 @@
                                     @endif
                                         
                                     </td> 
-                                    <td>{{$student->price}}</td>   
+                                    <td>{{$student->dob}}</td>   
                                     <td><a href="{{route('editStudent',$student->id)}}" data-toggle="tooltip" title="Edit" class="btn btn-sm btn-outline-primary"><i class="fa fa-edit"></i></a>
                                         <a href="{{route('deleteStudent',$student->id)}}" data-toggle="tooltip" title="Trash" class="btn btn-sm btn-outline-danger btn-delete" rel="{{ $student->id }}" rel1="student/delete"><i class="fa fa-trash-o"></i></a>
                                     </td>

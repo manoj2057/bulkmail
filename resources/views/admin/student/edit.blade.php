@@ -18,7 +18,7 @@
                         <select name="course_id" id="course_id" class="form-control-sm form-control">
                             <option selected disabled>Select Course</option>
                             @foreach($courses as $course)
-                           <option value="{{ $course['id'] }}" {{ $student->course_id == $course['id'] ? 'selected' : '' }}>{{ $category['category_name'] }}</option>
+                           <option value="{{ $course['id'] }}" {{ $student->course_id == $course['id'] ? 'selected' : '' }}>{{ $course['course_name'] }}</option>
                             @endforeach
 
                         </select>
